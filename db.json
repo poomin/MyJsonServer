@@ -1,0 +1,177 @@
+{
+    "user": [
+        {   "id": 1 ,
+            "username": "Teacher",
+            "email":"Teacher@gmail.com",
+            "name":"Teacher",
+            "surname": "AK",
+            "school":{
+                "name": "wanyai",
+                "region": "mukdahan"
+             },
+            "role": "teacher"
+        },
+        {   "id": 2 ,
+            "username": "Cherry",
+            "email":"Cherry@gmail.com",
+            "name":"Cherry",
+            "surname": "jaisuk",
+            "school":{
+                "name": "wanyai",
+                "region": "mukdahan"
+            },
+            "role": "student"
+        },
+        {   "id": 3,
+            "username": "Student2",
+            "email":"Student2@gmail.com",
+            "name":"Student",
+            "surname": "AK",
+            "school":{
+                "name": "wanyai",
+                "region": "mukdahan"
+            },
+            "role": "teacher"
+        },
+        {   "id": 4,
+            "username": "Student3",
+            "email":"Student3@gmail.com",
+            "name":"Cherry2",
+            "surname": "jaisuksai",
+            "school":{
+                "name": "wanyai",
+                "region": "mukdahan"
+            },
+            "role": "student"
+        }
+    ],
+    "project": [
+        {   "id": 1,
+            "projectsetup": {
+                "name": "kim num mai ped",
+                "details": "this project is about drinking water",
+                "active": true
+            },
+            "member": [
+                {   "user_id": 1},
+                {   "user_id": 2}
+            ],
+            "phasedata":[
+                {   "phase": "append",
+                    "upload": [
+                        {   "path": "xxx/xxx/xxx",
+                            "type": "PDF"
+                        },
+                        {   "path": "xxx/xxx/xx1",
+                            "type": "PPT"
+                        }
+                    ],
+                    "result" :  "PASS"
+                }
+            ]
+        },
+        {   "id": 2,
+            "projectsetup": {
+                "name": "kim num mai aroi",
+                "details": "this project is about drinking water2",
+                "active": true
+            },
+            "member": [
+                {   "user_id": 1},
+                {   "user_id": 3}
+            ],
+            "phasedata":[
+                {   "phase": "append",
+                    "upload": [
+                        {   "path": "xxx/xxx/xx2",
+                            "type": "PDF"
+                        },
+                        {   "path": "xxx/xxx/xx3",
+                            "type": "PPT"
+                        }
+                    ],
+                    "result" :  "FAILED"
+                }
+            ]
+        },
+        {   "id": 3,
+            "projectsetup": {
+                "name": "kim num mai kub",
+                "details": "this project is about drinking water3",
+                "active": true
+            },
+            "member": [
+                {   "user_id": 1},
+                {   "user_id": 4}
+            ],
+            "phasedata":[
+                {   "phase": "append",
+                    "upload": [
+                        {   "path": "xxx/xxx/xx4",
+                            "type": "PDF"
+                        },
+                        {   "path": "xxx/xxx/xx5",
+                            "type": "PPT"
+                        }
+                    ],
+                    "result" :  "PASS"
+                }
+            ]
+        }
+    ],
+    "post": [
+        {   "id": 1,
+            "user_id": 1,
+            "upload" :[
+                {   "uploadtype" : "JPG",
+                    "namefile" : "picture1",
+                    "path" : "xxx/xxx/x23"
+                },
+                {   "uploadtype" : "JPG",
+                    "namefile" : "picture2",
+                    "path" : "xxx/xxx/x32"
+                }
+            ],
+            "comment": [
+                {   "user_id": 2,
+                    "details": "very good post"
+                },
+                {   "user_id": 3,
+                    "details": "I love this post"
+                }
+            ],
+            "details" : "this post is the sample test"
+        },
+        {   "id": 2,
+            "user_id": 1,
+            "upload" :[
+                {   "uploadtype" : "JPG",
+                    "namefile" : "picture3",
+                    "path" : "xxx/xxx/x24"
+                }
+            ],
+            "comment": [
+                {   "user_id": 4,
+                    "details": "very good post"
+                },
+                {   "user_id": 3,
+                    "details": "I love this post"
+                }
+            ],
+            "details" : "this post is the sample test 2 "
+        },
+        {   "id": 3,
+            "user_id": 1,
+            "upload" :[ ],
+            "comment": [
+                {   "user_id": 2,
+                    "details": "very good post"
+                },
+                {   "user_id": 3,
+                    "details": "I love this post"
+                }
+            ],
+            "details" : "this post is the sample testi 3"
+        }
+    ]
+}
