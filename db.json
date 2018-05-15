@@ -1,5 +1,16 @@
 {
     "user": [
+        {   "id": 0 ,
+            "username": "admin",
+            "email":"admin@gmail.com",
+            "name":"admin",
+            "surname": "AK",
+            "school":{
+                "name": "wanyai",
+                "region": "mukdahan"
+             },
+            "role": "admin"
+        },
         {   "id": 1 ,
             "username": "Teacher",
             "email":"Teacher@gmail.com",
